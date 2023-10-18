@@ -293,3 +293,207 @@ h6 {
   color: #848789;
   margin: 0 auto;
 }
+
+.hulot {
+  width: 100%;
+  height: 600px;
+  display: flex;
+}
+
+.hulot-img {
+  width: 33.3%;
+  background: no-repeat center url(/img/bike-3-bg.png);
+}
+
+.hulot-img img {
+  width: 208px;
+  height: 67px;
+  margin: 280px 0 0 190px;
+}
+
+.hulot-info {
+  display: flex;
+  justify-content: space-between;
+  flex-direction: column;
+  width: 33.3%;
+}
+
+.hulot-icon {
+  width: 23px;
+  height: 41px;
+  background: no-repeat url(/img/icon_129.png);
+  margin: 25px auto;
+}
+
+.hulot-title {
+  font-family: Lato;
+  font-size: 18px;
+  line-height: 1.2;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 0.2em;
+  color: #353738;
+  width: 300px;
+  margin: 0 auto;
+}
+
+.hulot-text {
+  font-family: Lato;
+  font-size: 16px;
+  line-height: 29px;
+  font-weight: 400;
+  color: #848789;
+  width: 400px;
+  margin: 10% auto;
+}
+
+.hulot-bottom-img {
+  width: 100%;
+  height: 200px;
+  background-color: #282f35;
+  background: no-repeat center url(/img/bike-3-img.png);
+}
+
+.hulot-img__bike {
+  width: 33.3%;
+  background: no-repeat center url(/img/bike-3-bg-2.png);
+}
+
+.twitter {
+  width: 100%;
+  height: 470px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.twitter__logo {
+  width: 32px;
+  height: 27px;
+  background: no-repeat center url(/img/icon_130.png);
+}
+
+.twitter__title {
+  font-family: Lato;
+  font-size: 18px;
+  line-height: 1.2;
+  font-weight: 700;
+  letter-spacing: 0.1em;
+  color: #353738;
+}
+
+.twitter__text {
+  font-family: Lato;
+  font-size: 24px;
+  line-height: 34px;
+  font-weight: 400;
+  font-style: italic;
+  color: #848789;
+}
+
+.switch {
+  width: 65px;
+  margin: 0 auto;
+  display: inline-flex;
+  gap: 4px;
+}
+
+.circle-one {
+  width: 11px;
+  height: 11px;
+  background-color: #a9afb3;
+  border-radius: 50%;
+  border: 1px solid #666;
+}
+
+.circle-two {
+  width: 11px;
+  height: 11px;
+  background-color: rgba(40, 47, 53, 0);
+  border: 1px solid #c8c8c8;
+  border-radius: 50%;
+}
+
+.circle-three {
+  width: 11px;
+  height: 11px;
+  background-color: rgba(40, 47, 53, 0);
+  border: 1px solid #c8c8c8;
+  border-radius: 50%;
+}
+
+.shop {
+  width: 100%;
+  height: 740px;
+  background-color: #282f35;
+}
+
+.shop__img {
+  display: flex;
+  width: 100%;
+  height: 540px;
+}
+
+.shop__img-one {
+  width: 33.3%;
+  display: flex;
+}
+
+.shop__img-one-top {
+  display: flex;
+  height: 540px;
+}
+
+.shop__img-one-top-left {
+  width: 267px;
+  height: 267px;
+}
+
+.shop__img-one-top-right {
+  width: 267px;
+  height: 267px;
+}
+
+.shop__img-one-bottom {
+  width: 97%;
+  height: 267px;
+  margin: 48% -97%;
+  position: relative;
+}
+
+.shop__img-two {
+  display: flex;
+  width: 33.3%;
+}
+
+.shop__img-three {
+  width: 33.3%;
+}
+
+.shop__img-three-bottom {
+  display: flex;
+}
+
+.shop__discover {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 300px;
+  height: 50px;
+  background-color: rgba(255, 255, 255, 0);
+  border: 1px solid rgba(255, 255, 255, 0.49);
+  margin: 40px auto;
+  text-decoration: none;
+}
+
+.discovery {
+  font-family: Lato;
+  font-size: 14px;
+  line-height: 1.2;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 0.2em;
+  color: #ffffff;
+}
