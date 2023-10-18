@@ -87,6 +87,105 @@
   max-width: 100%;
   width: 113px;
   height: 118px;
+  margin: 150px 0 0 0;
 }
+.bike-work__info {
+  display: flex;
+  width: 33.3%;
+  height: 500px;
+  justify-content: space-between;
+  flex-direction: column;
+}
+.olivia-icon {
+  margin: 0 0 0 228px;
+  width: 41px;
+  height: 30px;
+
+  background: no-repeat url(../img/icon_78.png);
+}
+.olivia-title {
+  font-family: Lato;
+  font-size: 18px;
+  line-height: 1.2;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 0.2em;
+  color: #353738;
+  margin: 0 66px 0 0;
+}
+.olivia__text {
+  font-family: Lato;
+  font-size: 16px;
+  line-height: 30px;
+  font-weight: 400;
+  color: #848789;
+
+  margin: 0 97px 0 0;
+}
+.olivia__img {
+  width: 533px;
+  height: 200px;
+  background: no-repeat url(../img/bike-1-img.png);
+  margin: 0 50px 7px -42px;
+}
+.boriosa {
+  width: 100%;
+  height: 600px;
+  display: flex;
+
+  justify-content: space-between;
+}
+.boriosa__info {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  width: 33.3%;
+  height: 600px;
+}
+.boriosa-icon {
+  margin: 0 auto;
+  width: 30px;
+  height: 30px;
+  background: no-repeat center url(/img/icon_93.png);
+}
+.boriosa__img-small {
+  width: 534px;
+  height: 200px;
+  background: no-repeat url(/img/bike-2-img.png);
+  margin: 0 0 -14px 56px;
+}
+.boriosa__img {
+  width: 66.6%;
+  height: 600px;
+  background: no-repeat url(/img/rectangle_1_copy_5_61.png);
+}
+.boriosa__img p {
+  width: 177px;
+  height: 152px;
+  display: block;
+  margin: 0 auto;
+  padding-top: 200px;
+}
+.boriosa-title {
+  font-family: Lato;
+  font-size: 18px;
+  line-height: 1.2;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 0.2em;
+  color: #353738;
+  margin: 0 auto;
+}
+.boriosa-text {
+  width: 340px;
+  height: 250px;
+  font-family: Lato;
+  font-size: 16px;
+  line-height: 29px;
+  font-weight: 400;
+  color: #848789;
+  margin: 0 auto;
+}
+
 .footer {
 }
